@@ -154,7 +154,28 @@ footer {
 .about {
   flex-direction: column;
 }
+ .home ul,.food ul,.foodgallery ul,.contactus ul {
+    display: block;
+  }
 
+  .footer-section {
+    text-align: center;
+  }
+
+  .about-content, .about-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+  }
 
 
 }
