@@ -178,7 +178,37 @@ footer {
     display: inline-block;
     margin: 0 10px;
   }
+@media (max-width: 768px) {
+  .home li, .food li, .foodgallery li, .contactus li {
+    float: none;
+    width: 100%;
+  }
 
+  .food-item, .food-card {
+    flex-direction: column;
+    flex: 1 1 100%; /* Make food items take full width */
+  }
+
+  .about-content, .about-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: auto; /* Ensure images scale properly */
+  }
+
+  .heading-with-img {
+    background-attachment: scroll; /* Fix background image scrolling on mobile */
+    background-position: top;
+  }
+
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
 
 }
 
