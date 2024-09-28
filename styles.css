@@ -165,11 +165,13 @@ footer {
   .about-content, .about-image {
     width: 100%;
     text-align: center;
+    float:none;
   }
 
   .about-image img {
     max-width: 100%;
     height: auto;
+    float:none;
   }
 
   .social-links a {
